@@ -1,0 +1,25 @@
+# Данные, кеши и временные результаты
+data/
+artifacts/
+*.zip
+*.gz
+*.jsonl
+*.parquet
+*.npz
+*.npy
+*.pt
+*.pth
+*.pkl
+
+# Окружения и Python
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+.pytest_cache/
+
+# Локальные настройки
+.DS_Store
+.env
+.env.*
